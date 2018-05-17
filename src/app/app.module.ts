@@ -20,6 +20,11 @@ import {
   SidebarComponent,
   SettingsComponent
 } from './components/_shared';
+import { DashboardTwoComponent } from './components/dashboard-two/dashboard-two.component';
+import { WidgetsComponent } from './components/widgets/widgets.component';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { RegisterComponent } from './components/register/register.component';
+
 
 const APP_COMPONENTS = [
   HeaderComponent,
@@ -41,13 +46,16 @@ const APP_COMPONENTS = [
     FormsComponent,
     FullLayoutComponent,
     SimpleLayoutComponent,
+    DashboardTwoComponent,
+    WidgetsComponent,
+    RegisterComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

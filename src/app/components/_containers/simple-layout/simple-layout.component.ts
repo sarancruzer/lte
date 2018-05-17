@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
+import { DOCUMENT } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-simple-layout',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SimpleLayoutComponent implements OnInit {
 
-  constructor() { }
+  constructor(@Inject(DOCUMENT) private document: Document) { 
+
+  }
 
   ngOnInit() {
+    this.document.body.classList.add('register-page');
   }
 
 }

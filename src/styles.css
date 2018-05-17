@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+.skin-green-light .sidebar-menu>li:hover>a, .skin-green-light .sidebar-menu>li.active>a {
+    color: #fff !important;
+    background: #00a65a !important;
+}
