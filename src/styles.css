@@ -1,5 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 .skin-green-light .sidebar-menu>li:hover>a, .skin-green-light .sidebar-menu>li.active>a {
     color: #fff !important;
-    background: #00a65a !important;
+    background: #3F51B5 !important;
+}
+
+.skin-green-light .main-header .navbar {
+  background-color: #3F51B5 !important;
+}
+
+.skin-green-light .main-header .logo {
+  background-color: #3F51B5 !important;
+  color: #fff;
+  border-bottom: 0 solid transparent;
 }

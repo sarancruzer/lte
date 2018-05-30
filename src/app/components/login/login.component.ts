@@ -10,12 +10,11 @@ import * as $ from 'jquery';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  icheck: JQuery;
 
   constructor(private _router: Router) { }
 
   ngOnInit() {
-    
+
   }
 
   navigate(url) {

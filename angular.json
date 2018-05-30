@@ -32,14 +32,12 @@
             ],
             "scripts": [
               "src/assets/bower_components/jquery/dist/jquery.min.js",
-              "src/assets/bower_components/jquery/dist/jquery.min.js",
               "src/assets/bower_components/bootstrap/dist/js/bootstrap.min.js",
               "src/assets/bower_components/fastclick/lib/fastclick.js",
               "src/assets/plugins/iCheck/icheck.min.js",
               "src/assets/dist/js/adminlte.js",
               "src/assets/bower_components/jquery-sparkline/dist/jquery.sparkline.min.js",
               "src/assets/bower_components/jquery-slimscroll/jquery.slimscroll.min.js",
-              "src/assets/dist/js/pages/dashboard2.js",
               "src/assets/dist/js/demo.js"
             ]
           },
